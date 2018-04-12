@@ -1,22 +1,22 @@
 
-greeting: 안녕하시냐
+greeting: 안녕하시냐 dev branch
 
 ---
 
 spring:
   profiles: dev
-greeting: 개발환경 안녕하시냐 
+greeting: 개발환경 안녕하시냐  dev branch
 
 
 ---
 
 spring:
   profiles: stg
-greeting: 스티이징환경 안녕하시냐 
+greeting: 스티이징환경 안녕하시냐  dev branch
 
 
 ---
 
 spring:
   profiles: prd
-greeting: 운영환경 안녕하시냐 
+greeting: 운영환경 안녕하시냐  dev branch
