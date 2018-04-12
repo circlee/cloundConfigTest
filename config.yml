@@ -4,19 +4,19 @@ greeting: 안녕하시냐
 ---
 
 spring:
-  profile: dev
+  profiles: dev
 greeting: 개발환경 안녕하시냐 
 
 
 ---
 
 spring:
-  profile: stg
+  profiles: stg
 greeting: 스티이징환경 안녕하시냐 
 
 
 ---
 
 spring:
-  profile: prd
+  profiles: prd
 greeting: 운영환경 안녕하시냐 
