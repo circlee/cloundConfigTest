@@ -1,2 +1,22 @@
 
 greeting: 안녕하시냐
+
+---
+
+spring:
+  profile: dev
+greeting: 개발환경 안녕하시냐 
+
+
+---
+
+spring:
+  profile: stg
+greeting: 스티이징환경 안녕하시냐 
+
+
+---
+
+spring:
+  profile: prd
+greeting: 운영환경 안녕하시냐 
